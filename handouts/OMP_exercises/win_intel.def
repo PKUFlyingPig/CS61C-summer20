@@ -1,0 +1,13 @@
+# for Intel compiler on windows
+# copy to make.def
+CC          = icl
+CLINKER     = $(CC)
+OPTFLAGS    = /Qopenmp
+LIBS        =
+PRE         =
+
+CFLAGS	  = $(OPTFLAGS) 
+
+OBJ=obj
+EXE=.exe
+RM=del

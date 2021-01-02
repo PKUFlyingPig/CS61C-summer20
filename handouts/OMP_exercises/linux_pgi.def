@@ -1,0 +1,10 @@
+CC          = pgcc
+CLINKER     = $(CC)
+OPTFLAGS    = -mp -fast 
+LIBS        =
+
+CFLAGS	  = $(OPTFLAGS) 
+
+OBJ=o
+EXE=.exe
+RM=rm 

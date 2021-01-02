@@ -1,0 +1,15 @@
+# for intel compiler on linux (most exercises work with icc as well)
+# copy to make.def
+CC         = icpc
+CPP         = $(CC)
+OPTFLAGS   = -openmp
+
+CLINKER     = $(CC)
+LIBS        = -lm
+
+CFLAGS    = $(OPTFLAGS)
+PRE= ./
+OBJ=o
+EXE=
+RM=rm
+

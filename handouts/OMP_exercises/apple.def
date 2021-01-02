@@ -1,0 +1,13 @@
+# for g++ compiler on Apple OS-X
+# copy to make.def
+CC          = clang++
+CLINKER     = $(CC)
+OPTFLAGS    = -fopenmp -DAPPLE
+LIBS        = -lomp
+PRE         = ./
+
+CFLAGS	  = $(OPTFLAGS)
+
+OBJ=o
+EXE=
+RM=rm
