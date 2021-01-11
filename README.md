@@ -40,4 +40,9 @@ The projects I chose the 2020 fall version, which is a little different than the
   - [x] Fa20-project3: [CPU](https://github.com/PKUFlyingPig/RISC-V_CPU)
   - [ ] Fa20-project4: numc
 
-  
+
+
+
+### Wanna Learn More ?
+
+Check out [this repository](https://github.com/PKUFlyingPig/Self-learning-Computer-Science) which contains all my self-learning materials : )
